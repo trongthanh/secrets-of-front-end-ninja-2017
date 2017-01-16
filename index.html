@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Secrets of Front End Ninja - Thanh Tran</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="js/remark-latest.min.js"></script>
+	</head>
+	<body>
+
+		<script>
+			/*global remark*/
+			remark.create({
+				sourceUrl: 'index.md',
+				countIncrementalSlides: false,
+				// Navigation options
+				navigation: {
+					// Enable or disable navigating using scroll
+					scroll: false,
+				}
+			});
+		</script>
+	</body>
+</html>

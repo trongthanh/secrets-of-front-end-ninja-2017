@@ -1,0 +1,258 @@
+html {
+	box-sizing: border-box;
+	font-size: 10px; /*for easy rem calculation*/
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	/*font-family: 'Noto Serif', serif;*/
+	font-family: Monaco, Source Code Pro, monospace;
+	font-weight: 400;
+
+}
+
+h1, h2, h3, h4, h5, h6, .topic {
+	font-family: Source Sans Pro, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-weight: 300;
+}
+
+a, a:visited {
+	text-decoration-skip: ink;
+	color: #8c6b4a; /*#af8168;*/
+}
+
+a:hover {
+	color: #c9ac9a;
+}
+
+ul {
+	margin: 1rem 0 1rem -1.8rem; /*to align the bullets with heading*/
+}
+
+li {
+	margin-bottom: 0.5em;
+}
+
+img {
+	max-height: 450px;
+	max-width: 600px;
+}
+
+.remark-code, .remark-inline-code { font-family: Monaco; }
+
+.animated {
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+}
+
+.logo img {
+	height: 150px;
+	width: auto;
+}
+
+.logo + .logo {
+	margin-left: 2rem;
+}
+
+.topic {
+	position: absolute;
+	left: 8rem;
+	top: 2rem;
+}
+
+.footnote {
+	position: absolute;
+	left: 2rem;
+	bottom: 1.2rem;
+	font-size: 0.8em;
+}
+
+.title-spacer {
+	display: block;
+	padding-top: 12rem;
+}
+
+.float-right {
+	float: right;
+}
+
+.fade {
+	color: lightgray;
+}
+
+.fade strong {
+	font-weight: normal;
+	color: black;
+}
+
+
+/* Bar graph component
+Based on https://css-tricks.com/making-charts-with-css/
+*/
+.graph {
+	position: relative;
+	margin-top: 6rem;
+	margin-bottom: -100px;
+}
+
+.graph.center {
+	margin-left: -160px;
+	left: 50%;
+}
+
+.graph.bottom {
+	position: absolute;
+	bottom: 5rem;
+}
+
+
+.q-graph {
+	display: block;
+	/* fixes layout wonkiness in FF1.5 */
+	position: relative;
+	width: 320px;
+	height: 200px;
+	margin: 1.1em 0 0;
+	padding: 0;
+	background: transparent;
+	font-size: 11px;
+}
+
+.q-graph caption {
+	caption-side: top;
+	width: 320px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	top: -40px;
+	position: relative;
+	z-index: 10;
+	font-weight: bold;
+}
+
+.q-graph tr, .q-graph th, .q-graph td {
+	position: absolute;
+	bottom: 0;
+	width: 80px;
+	z-index: 2;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.q-graph td {
+	transition: all .3s ease;
+}
+.q-graph td:hover {
+	background-color: #4d4d4d;
+	opacity: .9;
+	color: white;
+}
+
+.q-graph thead tr {
+	left: 100%;
+	top: 50%;
+	bottom: auto;
+	margin: -2.5em 0 0 5em;
+}
+
+.q-graph thead th {
+	width: 7.5em;
+	height: auto;
+	padding: 0.5em 1em;
+}
+
+.q-graph thead th.sent {
+	top: 0;
+	left: 0;
+	line-height: 2;
+}
+
+.q-graph thead th.paid {
+	top: 2.75em;
+	line-height: 2;
+	left: 0;
+}
+
+.q-graph tbody tr {
+	height: 200px;
+	padding-top: 2px;
+	border-right: 1px dotted #C4C4C4;
+	color: #AAA;
+}
+
+.q-graph .q1 {
+	left: 0;
+}
+
+.q-graph .q2 {
+	left: 80px;
+}
+
+.q-graph .q3 {
+	left: 160px;
+}
+
+.q-graph .q4 {
+	left: 240px;
+	border-right: none;
+}
+
+.q-graph tbody th {
+	bottom: -1.75em;
+	vertical-align: top;
+	font-weight: normal;
+	color: #333;
+}
+
+.q-graph .bar {
+	width: 60px;
+	border: 1px solid;
+	border-bottom: none;
+	color: #000;
+}
+
+.q-graph .bar p {
+	margin: 5px 0 0;
+	padding: 0;
+	opacity: .4;
+}
+
+.q-graph .sent {
+	left: 10px;
+	background-color: #39cccc;
+	border-color: transparent;
+}
+
+.q-graph .paid {
+	left: 77px;
+	background-color: #7fdbff;
+	border-color: transparent;
+}
+
+.ticks {
+	position: relative;
+	top: -200px;
+	left: 2px;
+	width: 400px;
+	height: 200px;
+	z-index: 1;
+	margin-bottom: -100px;
+	font-size: 10px;
+	font-family: "fira-sans-2", Verdana, sans-serif;
+}
+
+.ticks .tick {
+	position: relative;
+	border-bottom: 1px dotted #C4C4C4;
+	width: 320px;
+}
+
+.ticks .tick p {
+	position: absolute;
+	left: -5em;
+	top: -0.8em;
+	margin: 0 0 0 0.5em;
+}
