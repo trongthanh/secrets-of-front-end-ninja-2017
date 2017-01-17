@@ -37,8 +37,18 @@ li {
 }
 
 img {
-	max-height: 450px;
+	max-height: 480px;
 	max-width: 600px;
+}
+
+blockquote {
+	margin-left: 0;
+	padding-left: 4rem;
+	border-left: 3px solid #aaa;
+}
+
+blockquote p {
+	font-style: italic;
 }
 
 .remark-code, .remark-inline-code { font-family: Monaco; }
@@ -79,6 +89,11 @@ img {
 	float: right;
 }
 
+.column {
+	float: left;
+	max-width: 50%;
+}
+
 .fade {
 	color: lightgray;
 }
@@ -86,6 +101,24 @@ img {
 .fade strong {
 	font-weight: normal;
 	color: black;
+}
+
+.twitter {
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4rem;
+	margin-bottom: 4rem;
+}
+
+.twitter img {
+	display: block;
+	height: 18rem;
+	width: auto;
+
+}
+
+.twitter em {
+	display: block;
 }
 
 

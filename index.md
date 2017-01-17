@@ -78,7 +78,7 @@ class: animated, fadeIn
 
 ---
 
-## Web Developer*
+## Web Developer
 
 - Proficient in one of server-side languages (PHP, .NET...)
 - Good at data & SQL
@@ -204,12 +204,38 @@ PSD files into static HTML layout
 </div>
 
 ---
+class: center, middle
+
+## That was 2000's
+
+---
+
+## The causes of the rise of Front End
+
+.column[
+- AJAX evolution (2005)
+- HTML5 & CSS3 evolution (2008)
+- Steve Job's Thought on Flash open letter (2010)
+]
+
+--
+
+.top-right[![Flash history](img/flash-history.jpg)]
+
+.footnote[Image by [CommitStrip](http://www.commitstrip.com/en/2015/07/15/a-brief-history-of-flash/)]
+
+???
+https://en.wikipedia.org/wiki/Ajax_(programming)
+https://en.wikipedia.org/wiki/HTML5
+http://www.apple.com/hotnews/thoughts-on-flash/
+
+---
 
 ## Front End Developer 😎
 
-- Can't do server side at first
+- Can't do server side but very good at AJAX
 - Proficient in HTML+CSS
-- Proficient in JS, JS frameworks, SPA
+- Proficient in JS, JS frameworks, SPA*
 - Can convert PSD to HTML, OK at UI tools
 - Favorite OS & tools: macOS, Photoshop, SublimeText, Webstorm
 
@@ -244,14 +270,18 @@ PSD files into static HTML layout
   </div>
 </div>
 
+.footnote[* Single Page Application]
+
 ---
 
-## Hornorably mentioned:
+## Honorably mentioned:
 
 .float-right[![Which full-stack dev](img/which-full-stack-dev-are-you.jpg)]
 
 - Back End developers
 - Full-stack developers
+- JavaScript developers
+- NodeJS developers
 
 .footnote[Image by [CommitStrip](http://www.commitstrip.com/en/2016/11/07/which-full-stack-developer-are-you/)]
 
@@ -263,6 +293,8 @@ class: animated, fadeIn
 
 class: center, middle
 # The baseline skill set of a modern Front End developer
+
+.center[![Front End Baseline cloudtag](img/front-end-baseline.png)]
 
 ---
 
@@ -293,7 +325,11 @@ class: animated, fadeIn
 .footnote[AKA. Pareto principle, the law of the vital few]
 
 --
-80% of daily work comes from 20% of the F.E. knowledge
+- **80%** of daily work comes from **20%** of the F.E. knowledge
+
+--
+- **80%** of new JS frameworks can be understood well with **20%** of JS basic knowledge
+- ...
 
 ---
 
@@ -323,48 +359,139 @@ class: center, middle
 ---
 layout: true
 class: animated, fadeIn
-.topic[Web Front End Principles]
+.topic[Front End Baseline > Web Front End Principles]
 
 ---
-
+class: center, middle
 ## Progressive Enhancement
 
 ???
 Explain a bit about PE
 
 ---
+
+## Progressive Enhancement
+
+.center[![](img/pe-page-70.jpg)]
+
+---
+
+## Progressive Enhancement
+
+.center[![](img/pe-page-71.jpg)]
+
+---
+
+## Progressive Enhancement
+
+.center[![](img/pe-page-72.jpg)]
+
+---
+
+## Progressive Enhancement
+
+.center[![](img/pe-page-73.jpg)]
+
+---
+
+## Progressive Enhancement
+
+.center[![](img/pe-page-74.jpg)]
+
+---
+
+## Progressive Enhancement
+
+.center[![](img/pe-page-75.jpg)]
+
+---
+
+## Progressive Enhancement
+
+.center[![](img/pe-page-76.jpg)]
+
+---
+
+## Progressive Enhancement
+
+.center[[![](img/pe-page-77.jpg)](http://dowebsitesneedtolookexactlythesameineverybrowser.com/)]
+
+---
+
+## Progressive Enhancement
+
+.center[![](img/pe-page-86.jpg)]
+
+---
 class: center, middle
 ## Mobile First
-
-.footnote[RWD: Responsive Web Design]
 
 ---
 
 ## Mobile First
 
-Internet users on mobile exceed users on desktop since 2014
+Internet users on mobile* exceed ones on desktop since 2014
 
 .center[![mobile vs desktop user](img/mobile-stats-vs-desktop-users-global.png)]
+
+.footnote[*include internet mobile apps]
+
+---
+
+## Mobile First
+
+Website visitors on mobile exceed ones on desktop 12/2016
+
+.center[![mobile vs desktop website visitor](img/mobile-sv-desktop-browser.png)]
+
+.footnote[Source: [Statecounter](http://gs.statcounter.com/#all-comparison-ww-monthly-201412-201612)]
 
 ---
 
 ## Mobile First
 
 - Responsive web design
-- CSS media query approach
+- CSS media query approach (max-width -> min-width)
 - Touch friendly UI
--
+- Load fast (less than 1s is ideal)
+
+---
+class: center, middle
+## User Experience > Developer Experience
 
 ---
 
 ## User Experience > Developer Experience
 
+Example:
+
+- Client side validation
+- Transition and functional animations
+- Server-side rendering
+- ...
+
 ???
+Example for transition:
+- pseudo class :hover :active
+
+---
+## User Experience > Developer Experience
+
+<p data-height="489" data-theme-id="0" data-slug-hash="LEorev" data-default-tab="result" data-user="sdras" data-embed-version="2" data-pen-title="Form with Animation That Assists in UX" class="codepen">See the Pen <a href="http://codepen.io/sdras/pen/LEorev/">Form with Animation That Assists in UX</a> by Sarah Drasner (<a href="http://codepen.io/sdras">@sdras</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+.footnote[Demo by [Sarah Drasner](http://codepen.io/sdras)]
+
+---
+layout: false
+class: animated, fadeIn, center, middle
+.topic[Front End Baseline]
+
+## The Languages
 
 ---
 layout: true
 class: animated, fadeIn
-.topic[Front End Languages]
+.topic[Front End Baseline > Languages]
 
 ---
 ## HTML
@@ -378,30 +505,65 @@ class: animated, fadeIn
 - HTML elements default style know-how
 
 --
+- HTML Form and Input
+
+--
 - Semantic HTML
 
+---
+background-image: url(img/h5d-sectioning-flowchart.png)
+background-size: contain
 
-???
-Show HTML doctor
+### Example:
+
+.footnote[Source [HTML5Doctor](http://html5doctor.com/resources/)]
 
 ---
 
 ## CSS
 
+--
 - Cascading rules
+
+--
 - Selectors and specificity
+
+--
 - The box model
+
+--
 - Stacking context
 
+---
+background-image: url(img/specificitywars.jpg)
+background-size: contain
+
+### E.g: Specificity War
+
+.footnote[Source [stuffandnonsense.co.uk](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html)]
 
 ---
 
 ## JavaScript
 
-- Prototypal inheritance
-- Closure
 - Dynamic typing
+
+--
+- Function scope and Closure
+
+--
+- Prototypal inheritance
+
+--
 - Object literals ({}, [])
+
+---
+
+### E.g: JS Equality Table
+
+.center[![JS Equality Table](img/js-equality-table.png)]
+
+.footnote[Source [dorey.github.io](https://dorey.github.io/JavaScript-Equality-Table/)]
 
 ---
 
@@ -414,111 +576,339 @@ Show HTML doctor
 
 ???
 Jargons: hamburger button, hero banner, above the fold, parallax
-Typography: sans fonts, base line,
+Typography: sans vs. sans-serif fonts, base line,
+
+---
+layout: false
+class: animated, fadeIn, center, middle
+.topic[Front End Baseline]
+
+## Tooling skills
+
+---
+layout: true
+class: animated, fadeIn
+.topic[Front End Baseline > Tooling]
+
+---
+
+## Tooling skills
+
+.column[
+- Code Editor:
+  + Multi-cursor
+  + Autocompletion
+  + Live code linting
+  + Fuzzy file search
+  + Emmet
+]
+
+--
+
+.right[
+  .logo[![VSCode logo](img/vscode-icon.png)]
+]
+.right[Visual Studio Code]
+
+---
+
+## Tooling skills
+
+- Browser Devtool: Chrome Devtool
+
+--
+- Terminal / command line
+  + NodeJS
+  + npm
+  + live-server
+
+--
+- Git tool: SourceTree, CLI
+
+--
+- Photoshop
+
+--
+- Illustrator
+
+--
+- Sketch app (macOS only)
+
+---
+
+### SketchApp Export demo:
+
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MLQ7_g5cNbU" frameborder="0" allowfullscreen></iframe>
+]
+
+---
+layout: false
+class: animated, fadeIn
+.topic[Front End Baseline]
+
+# Workflow
+
+> "All code in any code-base should look like a single person typed it, no matter how many people contributed." - from [Idiomatic.js](https://github.com/rwaldron/idiomatic.js/)
+
+--
+
+- Adopt a code style: Google, AirBnb, [Nau](http://code.naustud.io), your own
+- **dotfiles**
+  - **eslint**: [airbnb](https://github.com/airbnb/javascript), [naudotfiles](https://github.com/naustudio/javascript)
+  - **stylelint**: [airbnb](https://github.com/airbnb/css#css), [naudotfiles](https://github.com/naustudio/generator-naujs/blob/master/generators/app/templates/stylelintrc)
+  - **editorconfig**
+- **webpack**: file bundler and loader
+- Automation:
+  - **gulp**
+  - npm scripts + bash scripts
+- **Gitflow**: source control workflow
+
+---
+class: animated, fadeIn, center, middle
+
+# Roadmap to Senior Front End Developer
+
+.center[![Code ninja](img/code-ninja.png)]
+
+.footnote[Image source [map2app](http://www.map2app.com/jobs/)]
 
 ---
 layout: true
 class: animated, fadeIn
 
 ---
-# Tooling skills
 
-- Code Editor: recommended VSCode
-  + Multi-cursor
-  + Autocompletion
-  + Live code linting
-  + Fuzzy file search
-  + Emmet
-- Browser Devtool: Chrome Devtool
-- Terminal / command line
-  + NodeJS
-  + npm
-  + live-server
-  + (batch / bash scripts)
-  + (Yeoman)
-- Git tool: SourceTree, CLI
-- Photoshop
-- Illustrator
-- Sketch app (macOS only)
 
----
+# Roadmap to Senior Front End Developer
 
-# Workflow
+1) Learn the baseline
 
-- dotfiles
-  - eslint: airBnb, standard JS
-  - stylelint: naudotfiles, default
-  - editorconfig
-- gulp: task automation
-- webpack: file bundler and loader
-- npm scripts + bash scripts
-- Source control workflow: Gitflow
+--
+
+2) Learn the modular approaches of JS
+
+--
+
+3) Learn JS frameworks
+
+--
+
+4) Learn how to optimize Front End
+
+--
+
+5) Learn how to unit test
+
+--
+
+6) Learn how to write your own workflow and conventions
 
 ---
 
 # Roadmap to Senior Front End Developer
 
-1. Learn the baseline
-1. Learn JS frameworks
-1. Learn how to optimize Front End
-1. Learn how to unit test
-1. Learn how to write your own workflow and conventions
-1. Learn the modular approaches of JS (module format and loaders)
-1. Learn how to profile and debug performance issues
-1. Learn CSS architecture and methodology
-1. Learn full Front End project architect
-1. Learn hybrid mobile app
-1. Learn NodeJS
-1. Learn back-end JS
+7) Learn how to profile and debug performance issues
+
+--
+
+8) Learn CSS architecture and methodology
+
+--
+
+9) Learn full Front End project architect
+
+--
+
+10) Learn hybrid mobile app
+
+--
+
+11) Learn NodeJS
+
+--
+
+12) Learn back-end JS
+
+...
+
 
 ---
 
 # How to get started and improve as a Front End developer by yourself
 
-
-- Take online lession: codecademy, egghead, youtube (Nau channel)
-- Pick and read a book about JavaScript
-  + Recommended books: Professional JavaScript
-- Follow KOL on Twitters:
-  + TBC
-- Join FB
-
+--
 - Take English courses
+
+--
+- Take online lessons: codecademy, egghead, youtube ([Nau channel](https://www.youtube.com/user/naustudio))
+
+--
+- Pick and read a book about JavaScript, recommended:
+  + [Front End Developer Handbook](https://www.frontendhandbook.com/)
+  + **Professional JavaScript for Web Developers** by Nicholas C. Zakas
+  + [Eloquent JavaScript](http://eloquentjavascript.net/) by Marijn Haverbeke
+  + **JavaScript: The Good Parts** by Douglas Crockford
+  + [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read) by Nicholas C. Zakas
 
 ---
 
-# The chicken & egg paradox of Front End learning
+# How to get started and improve as a Front End developer by yourself
+
+- Join Vietnam local FB groups
+  + [Saigon Front End Developers](https://www.facebook.com/groups/saigonjs/)
+  + [Front-end Developers Vietnam](https://www.facebook.com/groups/FrontEndDevelopersVN/)
+  + [React Việt Nam](https://www.facebook.com/groups/reactvietnam)
+  + [NodeJS Vietnam](https://www.facebook.com/groups/vnnodejs/)
+- Follow KOL on Twitters
+
+---
+.topic[How to get started and improve as a Front End developer by yourself]
+## Follow KOL on Twitters
+
+.twitter[![](img/twitter-addyosmani.jpg) Addy Osmani _@addyosmani_]
+.twitter[![](img/twitter-brendaneich.png) Brendan Eich _@BrendanEich_]
+.twitter[![](img/twitter-chriscoyier.jpg) Chris Coyier _@chriscoyier_]
+.twitter[![](img/twitter-dan_abramov.jpg) Dan Abramov _@dan_abramov_]
+.twitter[![](img/twitter-youyuxi.jpg) Evan You _@youyuxi_]
+.twitter[![](img/twitter-csswizardry.jpg) Harry Roberts _@csswizardry_]
+
+---
+.topic[How to get started and improve as a Front End developer by yourself]
+## Follow KOL on Twitters (contd.)
+
+.twitter[![](img/twitter-jaffathecake.jpg) Jake Archibald _@jaffathecake_]
+.twitter[![](img/twitter-leaverou.png) Lea Verou _@LeaVerou_]
+.twitter[![](img/twitter-mathias.jpg) Mathias Bynens _@mathias_]
+.twitter[![](img/twitter-paul_irish.jpg) Paul Irish _@paul_irish_]
+.twitter[![](img/twitter-aerotwist.jpg) Paul Lewis _@aerotwist_]
+.twitter[![](img/twitter-mrdoob.png) Ricardo Cabello _@mrdoob_]
+
+---
+.topic[How to get started and improve as a Front End developer by yourself]
+## Follow KOL on Twitters (contd.)
+
+.twitter[![](img/twitter-sarah_edo.jpg) Sarah Drasner _@sarah_edo_]
+.twitter[![](img/twitter-thelarkinn.jpg) Sean T. Larkin _@TheLarkInn_]
+.twitter[![](img/twitter-sebmck.jpg) Sebastian McKenzie _@sebmck_]
+.twitter[![](img/twitter-sindresorhus.jpg) Sindre Sorhus _@sindresorhus_]
+.twitter[![](img/twitter-smashingmag.png) Smashing Magazine _@smashingmag_]
+.twitter[![](img/twitter-trongthanh.jpg) Thanh Tran _@trongthanh_]
+...
+
+---
+
+## The chicken & egg paradox of Front End learning
+
+--
+- The egg: You start learning Front End and JS **from the basics**
+- The chicken: You start learning **JS Frameworks** and work on real projects
 
 ???
 There is an emerging paradox with Front End learning: Can we start doing Front End out right with frameworks like Angular or ReactJS, or must you learn the basics from JavaScript & Front End basics first?
 
----
+AJAX
+Babel
+CLI
+ES6
+ES6 Promises
+Express (with backend) / Firebase (backend-less)
+Flux / Redux
+Git
+Grunt / Gulp / npm script
+JavaScript
+JSX
+Lambda (JS closure)
+Mobile Web
+MongoDB / MySQL / insert your DBMS
+Node.js
+NPM
+Post.css / Autoprefixer
+SASS / CSS
+Stripe / Paypal (online payment)
+Webpack
 
+---
+class: animated, fadeIn, center, middle
 # Front End Trend 2017
+.logo[![Pika Dragon](./img/pika-dragon.jpg)]
 
-- Universal JavaScript Applications
-  [Demo with Kuadobox]
-- Functional programming with JS
-  [Example: Array.map()]
-- Declarative programming
-  [Example: React, Vue, RxJS]
-- Unidirectional data flow
-  [Example: ]
-- Virtual DOM
-- Progressive Web App
-- Reactive programming
-- RAIL framework
+---
+layout: true
+class: animated, fadeIn
+.topic[Front End Trend 2017]
 
+---
+### Universal JavaScript Applications
+
+- Single Page Application
+- Server side rendering
+- History push state
+- Server side JavaScript
+
+(Demo with Kuadobox)
+
+---
+### Functional programming with JS
+
+- ES6 new core objects methods.
+  Example: Array.prototype.map()
+- REDUX & Reducers
+- Immutables & pure functions
+- lodash's FP module
 
 ---
 
+### Declarative programming*
+
+- Virtual DOM (React, Vue, Preact)
+- Reactive programming (RxJS, Angular 2)
+- GraphQL (Relay, GraphQL Express)
+
+.footnote[vs. Imperative programming]
+
+---
+
+### Unidirectional data flow architecture*
+
+- Success of Flux and it's implementations
+- Redux
+- MobX
+
+.footnote[*in contrast with MVC architecture on Front End]
+
+---
+
+### Progressive Web App
+
+- Service worker
+- Web Push Notification
+- Webapp's manifest.json
+- Web IndexDB
+- Web Payment API
+- Web Authentication API
+
+---
+
+### RAIL performance model
+
+.center[![](img/rail-model.png)]
+
+--
+.center[![](img/rail-model-goal.png)]
+
+---
+layout: false
+class: animated, fadeIn, center, middle
 # Questions & Answers
 
 
 ---
-class: center, middle
+class: animated, fadeIn, center, middle
 # Thanks
 The End
+
+This talk slides: [bit.ly/codecamp-fe2017](http://bit.ly/codecamp-fe2017)
 
 ---
 exclude: true
