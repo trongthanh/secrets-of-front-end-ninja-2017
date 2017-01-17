@@ -744,6 +744,9 @@ class: animated, fadeIn
 - Take online lessons: codecademy, egghead, youtube ([Nau channel](https://www.youtube.com/user/naustudio))
 
 --
+- Do a side project or a demo to reinforce what you learned
+
+--
 - Pick and read a book about JavaScript, recommended:
   + [Front End Developer Handbook](https://www.frontendhandbook.com/)
   + **Professional JavaScript for Web Developers** by Nicholas C. Zakas
@@ -807,26 +810,64 @@ class: animated, fadeIn
 ???
 There is an emerging paradox with Front End learning: Can we start doing Front End out right with frameworks like Angular or ReactJS, or must you learn the basics from JavaScript & Front End basics first?
 
-AJAX
-Babel
-CLI
-ES6
-ES6 Promises
-Express (with backend) / Firebase (backend-less)
-Flux / Redux
-Git
-Grunt / Gulp / npm script
-JavaScript
-JSX
-Lambda (JS closure)
-Mobile Web
-MongoDB / MySQL / insert your DBMS
-Node.js
-NPM
-Post.css / Autoprefixer
-SASS / CSS
-Stripe / Paypal (online payment)
-Webpack
+---
+
+### Example: ReactJS
+
+ReactJS prerequisites:
+
+.column[
+- AJAX
+- Babel
+- CLI
+- ES6
+- ES6 Promises
+- Express (with backend) / Firebase (backend-less)
+- Flux / Redux
+- Git
+- Grunt / Gulp / npm script
+- JavaScript
+- JSX
+]
+.column[
+- Lambda (JS closure)
+- Mobile Web
+- MongoDB / MySQL / insert your DBMS
+- Node.js
+- NPM
+- Post.css / Autoprefixer
+- SASS / CSS
+- Stripe / Paypal (online payment)
+- Webpack
+]
+
+---
+
+### Example: ReactJS
+What happen if you start learning React / React Native without the basics?
+
+![](img/react-snoob-question-1.jpg)
+
+---
+
+### Example: ReactJS
+
+What happen if you start learning React / React Native without the basics?
+
+![](img/react-snoob-question-2.jpg)
+
+???
+Give another example about Angular candidate
+
+---
+
+### A proposal:
+
+- **It's fine** if you start learning and doing JS frameworks
+- You should have a **mentor / leader** to guide and help explain uncertainties
+- You keep **learning the basics**
+- Join the technical groups on FB, forums
+- Go to technical sharing talks
 
 ---
 class: animated, fadeIn, center, middle
@@ -897,6 +938,9 @@ class: animated, fadeIn
 --
 .center[![](img/rail-model-goal.png)]
 
+
+.footnote[Source: [SmashingMagazine](https://www.smashingmagazine.com/2015/10/rail-user-centric-model-performance/)]
+
 ---
 layout: false
 class: animated, fadeIn, center, middle
@@ -906,7 +950,7 @@ class: animated, fadeIn, center, middle
 ---
 class: animated, fadeIn, center, middle
 # Thanks
-The End
+### The End
 
 This talk slides: [bit.ly/codecamp-fe2017](http://bit.ly/codecamp-fe2017)
 
