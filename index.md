@@ -33,7 +33,7 @@ class: center, top
 - CTO of [NauStud.io](https://naustud.io)
 - Front End Architect
 - 4 years with Flash / ActionScript
-- 5 years with Web Front End & JavaScript
+- 6 years with Web Front End & JavaScript
 - Currator of SaigonJS FB group
 
 .fa.fa-github-alt[] [/trongthanh](https://github.com/trongthanh)
@@ -781,20 +781,20 @@ class: animated, fadeIn
 ## Follow KOL on Twitters (contd.)
 
 .twitter[![](img/twitter-jaffathecake.jpg) Jake Archibald _@jaffathecake_]
+.twitter[![](img/twitter-getify.jpg) Kyle Simpson _@getify_]
 .twitter[![](img/twitter-leaverou.png) Lea Verou _@LeaVerou_]
+.twitter[![](img/twitter-markdalgleish.jpg) Mark Dalgleish _@markdalgleish_]
 .twitter[![](img/twitter-mathias.jpg) Mathias Bynens _@mathias_]
 .twitter[![](img/twitter-paul_irish.jpg) Paul Irish _@paul_irish_]
-.twitter[![](img/twitter-aerotwist.jpg) Paul Lewis _@aerotwist_]
-.twitter[![](img/twitter-mrdoob.png) Ricardo Cabello _@mrdoob_]
 
 ---
 .topic[How to get started and improve as a Front End developer by yourself]
 ## Follow KOL on Twitters (contd.)
 
+.twitter[![](img/twitter-mrdoob.png) Ricardo Cabello _@mrdoob_]
 .twitter[![](img/twitter-sarah_edo.jpg) Sarah Drasner _@sarah_edo_]
 .twitter[![](img/twitter-thelarkinn.jpg) Sean T. Larkin _@TheLarkInn_]
 .twitter[![](img/twitter-sebmck.jpg) Sebastian McKenzie _@sebmck_]
-.twitter[![](img/twitter-sindresorhus.jpg) Sindre Sorhus _@sindresorhus_]
 .twitter[![](img/twitter-smashingmag.png) Smashing Magazine _@smashingmag_]
 .twitter[![](img/twitter-trongthanh.jpg) Thanh Tran _@trongthanh_]
 ...
@@ -820,18 +820,17 @@ ReactJS prerequisites:
 - AJAX
 - Babel
 - CLI
+- Closure
 - ES6
 - ES6 Promises
 - Express (with backend) / Firebase (backend-less)
-- Flux / Redux
+- Flux and Redux
 - Git
-- Grunt / Gulp / npm script
 - JavaScript
 - JSX
 ]
 .column[
-- Lambda (JS closure)
-- Mobile Web
+- Mobile first & responsive
 - MongoDB / MySQL / insert your DBMS
 - Node.js
 - NPM
