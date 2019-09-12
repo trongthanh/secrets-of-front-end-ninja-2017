@@ -781,11 +781,11 @@ class: animated, fadeIn
 ## Follow KOL on Twitters (contd.)
 
 .twitter[![](img/twitter-jaffathecake.jpg) Jake Archibald _@jaffathecake_]
+.twitter[![](img/twitter-javascriptdaily.jpg) JavaScript Daily _@JavaScriptDaily_]
 .twitter[![](img/twitter-getify.jpg) Kyle Simpson _@getify_]
 .twitter[![](img/twitter-leaverou.png) Lea Verou _@LeaVerou_]
 .twitter[![](img/twitter-markdalgleish.jpg) Mark Dalgleish _@markdalgleish_]
 .twitter[![](img/twitter-mathias.jpg) Mathias Bynens _@mathias_]
-.twitter[![](img/twitter-paul_irish.jpg) Paul Irish _@paul_irish_]
 
 ---
 .topic[How to get started and improve as a Front End developer by yourself]
